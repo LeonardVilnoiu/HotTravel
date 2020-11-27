@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hotstyle.css">
+    <script src="js/scripturi.js"></script>
+    <link rel="icon" href="hot_travel.ico">
+    <title>Hot Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="galerie">
+    
+    <nav class="navbar" id="navbar">
+        <a class="active" href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="meniudrop()">Profile
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="profile.html">View Account</a>
+              <a href="Gallery.html">Gallery</a>
+            </div>
+        </div> 
+        <a href="Map.html">Map</a>
+        <a href="Login.html">Login</a>
+    </nav>
+    <header class="hd">
+        Your posts<a href="#" class="fa fa-facebook"></a>
+    </header>
+    <div class="cinta">
+        <div class="gridz"></div>
+        <button type="button" class="postez" onclick="post()">Show All</button>
+        <!-- <button type="button" id="" onclick="rem()">Hide All</button> -->
+        <article class="articol">
+            <h3>Photos description</h3>
+            <p>
+                Substanța medievală a Bucureștiului a fost de-a lungul timpului grav afectată de distrugeri și incendii. În plus, orașul a pierdut în mod tragic o serie 
+            de monumente, mai ales biserici, și în decursul campaniei de „urbanism” inițiate în secolul trecut de Nicolae Ceaușescu. Din nucleul orașului medieval de pe malurile 
+            Dâmboviței s-au păstrat vestigiile Curții Vechi (sec. XV–XVI) cu Biserica Domnească „Buna Vestire”, care datează probabil din vremea lui Mircea Ciobanul (d. 1559).<br />
+                    
+                <br /><span id="mark" onclick="markercuv()">Strada Lipscani</span>, în jurul căreia se desfășoară ceea ce este considerat centrul istoric al Bucureștiului, a fost 
+            atestată pentru prima dată în 1589 sub numele de „Ulița Mare”. Numele de astăzi îl primește în 1947 de la negustorii 
+            ce comercializau mărfuri aduse de la Lipsca (astăzi Leipzig). Clădirile de pe strada Lipscani au fost ridicate preponderent în secolul al XIX-lea în stilul 
+            neoclasic și neobaroc, fiind naționalizate în anul 1948. În anii 1980, regimul comunist le-a dat în folosință unor locatari ce le-au adus într-o stare deplorabilă. 
+            Lipscaniul este una din străzile Bucureștiului care are cele mai multe obiective pe Lista monumentelor istorice (peste 30), reunite sub titulatura Ansamblul de arhitectură 
+            „Strada Lipscani”. Din 2005, zona Lipscani este doar pietonală și este în curs de restaurare. Pe lângă clădirile de secol XIX, pe strada Lipscani s-au păstrat o serie de hanuri, notabile fiind Hanul 
+            Gabroveni (cel mai vechi dintre ele și restaurat în 2014), Hanul lui Manuc (1808) și Hanul cu Tei (1833).
+            </p>   
+            <ul class="tpo">
+                <li>Biserica Colțea</li>
+                <li>Biserica Fundenii Doamnei</li>
+                <li>Palatul Cotroceni</li>
+            </ul>
+            <br /> 
+        </article>
+    </div>
+    <footer>
+        <div class="footer">
+        &copy; Copyright 2020 Tehnici Web
+      </div>
+    </footer>
+</body>
+</html>

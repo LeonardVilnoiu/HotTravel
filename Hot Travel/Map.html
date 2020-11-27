@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/scripturi.js"></script>
+        <link rel="stylesheet" href="hotstyle.css">
+        <link rel="icon" href="hot_travel.ico">
+        <title>Hot Travel</title>
+        </head>
+
+<body id="Map" onload="initMap()">
+  <nav class="navbar" id="navbar">
+
+    <a class="active" href="index.html">Home</a>
+     <div class="dropdown">
+        <button class="dropbtn" onclick="meniudrop()">Profile
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="profile.html">View Account</a>
+          <a href="Gallery.html">Gallery</a>
+        </div>
+        </div>
+   <a href="Map.html">Map</a>
+   <a href="Login.html">Login</a>
+</nav>
+    <div class="grid">
+    <div id="map"></div>
+    </div>
+    <div id="info_table">
+        <table class="tabello">
+          <tbody>
+            <tr>
+              <td>
+                Latitudine
+              </td>
+              <td>
+                <input type="text" name="lat" id="xPoint" size="20" autocomplete="off" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Longitudine
+              </td>
+              <td>
+                <input type="text" name="lng" id="yPoint" size="20" autocomplete="off" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <input type="submit" id="setLatlng" value="Set">
+      </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhszjz1Gu8ol7gEVk2J18uRzpG-hPUsiM&callback=initMap" async defer></script>
+    <footer>
+      <div class="footer">
+      &copy; Copyright 2020 Tehnici Web
+    </div>
+    </footer>
+</body>
+
+</html> 
+
+
